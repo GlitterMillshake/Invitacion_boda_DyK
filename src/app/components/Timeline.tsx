@@ -32,7 +32,7 @@ export function Timeline() {
   return (
     <section id="itinerario" className="py-24 relative overflow-hidden bg-[#FAF7F5]/90">
       <img
-        src="src/assets/flowers (8).png"
+        src="/assets/flowers (8).png"
         alt=""
         className={'absolute top-0 right-0 pointer-events-none transition-all duration-1000 ease-in-out z-0 w-50 sm:w-100 md:w-140 lg:w-160'}
       />

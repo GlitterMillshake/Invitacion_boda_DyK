@@ -63,7 +63,7 @@ export function Navbar() {
           <div className="flex flex-row items-center justify-center gap-3">
             <div className="w-12 md:w-15 shrink-0">
               <img
-                src="/src/assets/logo_dyk.png"
+                src="/assets/logo_dyk.png"
                 alt="Logo"
                 className="w-full h-auto object-contain"
               />

@@ -4,7 +4,7 @@ export function EventLocation() {
   return (
     <section id="ubicacion" className="relative py-24 px-6 bg-[#FAF7F5]/90">
       <img
-        src="src/assets/flowers (10).png"
+        src="/assets/flowers (10).png"
         alt=""
         className={'absolute bottom-0 left-0 pointer-events-none transition-all duration-1000 ease-in-out z-0 w-100 sm:w-120 md:w-140 lg:w-160'}
       />

@@ -94,14 +94,14 @@ export function RSVPForm() {
       className="relative py-24 px-6 bg-[#FAF7F5]/90 overflow-hidden"
     >
       <img
-        src="src/assets/flowers (7).png"
+        src="/assets/flowers (7).png"
         alt=""
         className={`absolute top-0 left-0 pointer-events-none transition-all duration-1000 ease-in-out z-0
           w-60 sm:w-60 md:w-80 lg:w-100`}
       />
 
       <img
-        src="src/assets/flowers (6).png"
+        src="/assets/flowers (6).png"
         alt=""
         className={`absolute bottom-0 right-0 pointer-events-none transition-all duration-1000 ease-in-out z-0
           w-60 sm:w-60 md:w-80 lg:w-100`}

@@ -51,7 +51,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
     >
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/bg_hs.jpg" // <-- Coloca aquí tu imagen principal
+          src="/assets/bg_hs.jpg" // <-- Coloca aquí tu imagen principal
           alt="Fondo"
           className={`w-full h-full object-cover transition-all duration-1000 ease-in-out transform
       ${
@@ -192,7 +192,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
             {isOpen && (
               <>
                 <img
-                  src="/src/assets/bg_inv.jpg"
+                  src="/assets/bg_inv.jpg"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                 />
@@ -203,7 +203,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
             {/* Flores de esquina responsivas */}
             {isOpen && (
               <img
-                src="/src/assets/flowers (1).png"
+                src="/assets/flowers (1).png"
                 alt=""
                 className="absolute top-0 left-0 pointer-events-none opacity-90 transition-all duration-1000 delay-300
                   w-40 md:w-50 lg:w-80 xl:w-[25vw] xl:max-w-90"
@@ -213,7 +213,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
             <div className="absolute bottom-6 left-6 w-16 h-16 border-b-4 border-l-4 border-[#D4AF37] rounded-bl-lg opacity-90"></div>
             {isOpen && (
               <img
-                src="/src/assets/flowers (3).png"
+                src="/assets/flowers (3).png"
                 alt=""
                 className="absolute bottom-0 right-0 pointer-events-none opacity-90 transition-all duration-1000 delay-300
                   w-40 md:w-50 lg:w-80 xl:w-[25vw] xl:max-w-90"
@@ -244,7 +244,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
             <div className="mb-10 w-48 h-48 md:w-80 md:h-80 shrink-0 relative group">
               <div className="absolute inset-0 bg-black rounded-full blur-2xl translate-y-4 scale-100 opacity-90"></div>
               <div className="absolute inset-0 rounded-full border-4 border-[#D4AF37] shadow-inner overflow-hidden bg-white z-10 transform transition-transform duration-500 group-hover:scale-105 group-hover:-translate-y-2">
-                <img src="/src/assets/IMG_2853.png" className="object-cover" />
+                <img src="/assets/IMG_2853.png" className="object-cover" />
               </div>
             </div>
 

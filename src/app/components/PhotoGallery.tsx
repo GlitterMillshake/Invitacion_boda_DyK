@@ -53,13 +53,13 @@ export function PhotoGallery({ onVideoStateChange }: PhotoGalleryProps) {
     >
       {/* Flores decorativas */}
       <img
-        src="/src/assets/flowers (11).png"
+        src="/assets/flowers (11).png"
         alt=""
         className="absolute pointer-events-none transition-all duration-1000 ease-in-out z-0 top-0 left-0 w-60 md:w-70 lg:w-80 opacity-60"
       />
 
       <img
-        src="/src/assets/flowers (12).png"
+        src="/assets/flowers (12).png"
         alt=""
         className="absolute rotate-25 pointer-events-none transition-all duration-1000 ease-in-out z-0 bottom-0 right-0 w-60 md:w-70 lg:w-80 opacity-60"
       />
