@@ -9,7 +9,7 @@ export function Gifts() {
     >
       <div className="absolute inset-0 z-0 opacity-45">
         <img
-          src="/assets/bg_gifts.JPG" // <-- Coloca aquí tu imagen principal
+          src="/assets/bg_gifts.jpg" // <-- Coloca aquí tu imagen principal
           alt="Fondo"
           className={`w-full h-full object-cover transition-all duration-1000 ease-in-out transform`}
         />

@@ -192,7 +192,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
             {isOpen && (
               <>
                 <img
-                  src="/assets/bg_inv.JPG"
+                  src="/assets/bg_inv.jpg"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                 />
