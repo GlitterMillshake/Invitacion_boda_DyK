@@ -51,7 +51,7 @@ export function HeroSection({ onOpen }: HeroSectionProps) {
     >
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/assets/bg_hs.jpg" // <-- Coloca aquí tu imagen principal
+          src="/assets/bg_hs.png" // <-- Coloca aquí tu imagen principal
           alt="Fondo"
           className={`w-full h-full object-cover transition-all duration-1000 ease-in-out transform
       ${
